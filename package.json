@@ -1,0 +1,41 @@
+{
+  "name": "vuepress-theme-trskillblog",
+  "version": "1.0.0",
+  "description": "VuePress Blog Theme - trskillblog",
+  "keywords": [
+    "blog",
+    "theme",
+    "vuepress"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tr-blank/vuepress-theme-trskillblog.git"
+  },
+  "author": "Tr-blank <blank0129@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tr-blank/vuepress-theme-trskillblog/issues"
+  },
+  "homepage": "https://github.com/Tr-blank/vuepress-theme-trskillblog#readme",
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-plugin-pug": "^1.1.1",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^5.2.3",
+    "pug": "^2.0.4",
+    "pug-plain-loader": "^1.0.0"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.1.3"
+  }
+}
